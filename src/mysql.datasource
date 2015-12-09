@@ -1,0 +1,3 @@
+datasource.name = //mysql.cs.virginia.edu/ipa 
+datasource.username = ipauser
+datasource.password = dave

@@ -1,0 +1,9 @@
+OneCause = 1
+CauseFirst = 1
+OneEffect = 1
+MultiEffect = 2
+MultiCause = 2
+EffectFirst = 2
+Alternate = 3
+
+null = 0

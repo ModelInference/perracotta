@@ -1,0 +1,5 @@
+Run the class FileOpener in Eclipse. The command line will accept both folder names and file names. It will read ALL files in ALL folders named. This will create the database ipa. 
+
+It will print out the HTML code for a table, organized according to the rules in Database.java. According to the rules in public String printPatterns( ).
+
+Or you can access the database in anyother way.
