@@ -5,7 +5,34 @@ You can read more about the Perracotta tool [here](http://www.cs.virginia.edu/pe
 
 ###Building
 
+We have provided an [Apache Ant](http://ant.apache.org/) buildfile to build Perracotta, along with the required libraries. 
+
+Note that when running the ant command, many warnings will be outputted; Perracotta was built in the early to mid 2000s, and it appears that many Java practices from then now lead to warnings. 
+
 ###Running
+
+Run Perracotta with the command
+
+```
+$ java -cp ./lib/java-getopt-1.0.14.jar:./bin edu.virginia.cs.terracotta.InferenceEngine [args]
+```
+
+where the required and optional arguments are listed below. 
+
+```
+Required arguments:
+-i filename	The input trace file
+Optional arguments:
+-a double_number	turn on the probabilistic approximation mode
+-d	turn on the detailed mode which prints out how much percent of the traces satisfy each of the eight patterns
+-e	turn on the thread-aware mode
+-f	print out the frequency of events (default is false)
+-l int	set the minimum frequency of an event
+-t	Enable measure of tree distance
+-r	Enable measure of raw distance
+-p	Enable measure of probability
+-s patternCode	Enable single state machine mode
+```
 
 ###Input Format
 
